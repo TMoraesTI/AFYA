@@ -5,9 +5,7 @@ $('#botaoLista').click(function(){
     $('#botaoTabela').toggleClass('botaoSelecionar')
     $('#botaoTabela').removeClass('botaoSelecionado');
     $('#calendarioLista').toggleClass('calendarioLista');
-    $('#calendarioLista').removeClass('calendarioListaOcultar');
     $('#calendarioTabela').toggleClass('calendarioTabela');
-    $('#calendarioTabela').removeClass('calendarioTabelaMostrar');
 });
 
 $('#botaoTabela').click(function(){
@@ -17,9 +15,7 @@ $('#botaoTabela').click(function(){
     $('#botaoLista').toggleClass('botaoSelecionar');
     $('#botaoLista').removeClass('botaoSelecionado');
     $('#calendarioLista').toggleClass('calendarioListaOcultar');
-    $('#calendarioLista').removeClass('calendarioLista');
     $('#calendarioTabela').toggleClass('calendarioTabelaMostrar');
-    $('#calendarioTabela').removeClass('calendarioTabela');
 });
 
 

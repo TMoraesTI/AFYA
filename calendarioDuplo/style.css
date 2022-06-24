@@ -39,7 +39,7 @@ ul{
 }
 .alterarCalendario{
   right: 0;
-  background-color: #ffffff;
+  background-color: #000000ab;
   border: #D31C5B 1px solid;
   display: flex;
   border-radius: 50px;
@@ -52,12 +52,12 @@ ul{
 }
 .botaoSelecionado{
   border-radius: 50px;
-  background-color: #000000;
-  border: 1px solid #D31C5B; 
+  /* background-color: #595D5C; */
+  background-color: #cecece;
+  border: 2px solid #D31C5B; 
   cursor: none; 
 }
 .botaoSelecionar{
-  background-color: #ffffff;
   border: none; 
   border-radius: 50px;
 
