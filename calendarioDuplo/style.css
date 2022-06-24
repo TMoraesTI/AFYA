@@ -182,6 +182,9 @@ a{
 .divisaoTabelas{
   margin: auto;
 }
+.tabela{
+  font-size: 10px;
+}
 
 #tituloNome{
   background: #D31C5B;
@@ -193,8 +196,8 @@ a{
   background-color: #595D5C;
 }
 .nomeData{
-  width: 105px;
-  padding: 10px;
+  width: 100px;
+  padding: 3px;
 }
 
 .nomeModulo{
@@ -202,17 +205,22 @@ a{
   background-color: #595D5C;
   padding: 10px;
 }
-.data{
-  color: #000000;
+.data, .semData{
   font-weight: bold;
   text-align: center;
 }
+.data{
+  color: #000000;
+}
+.semData{
+  color: #ED2830;
+}
 #cor1{
-  background-color: #8E9794;
+  background-color: #cecece;
   padding: 10px;
 }
 #cor2{
-  background-color: #dedede;
+  background-color: #f1f1f1;
   padding: 10px;
 }
 
@@ -224,6 +232,11 @@ a{
 .calendarioTabelaMostrar{
   color: #ffffff;
   display: flex;
+}
+hr{
+  border-color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 3px;
 }
 
 
