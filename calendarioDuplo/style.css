@@ -54,13 +54,11 @@ ul{
   border-radius: 50px;
   /* background-color: #595D5C; */
   background-color: #cecece;
-  border: 2px solid #D31C5B; 
-  cursor: none; 
+  border: 2px solid #D31C5B;
 }
 .botaoSelecionar{
   border: none; 
   border-radius: 50px;
-
 }
 
 a{
@@ -175,7 +173,7 @@ a{
 }
 
 
-
+/*TABELA*/
 .calendarioTabela{
   display: none;
 }
@@ -231,7 +229,7 @@ a{
 }
 .calendarioTabelaMostrar{
   color: #ffffff;
-  display: flex;
+  display: grid;
 }
 hr{
   border-color: #ffffff;

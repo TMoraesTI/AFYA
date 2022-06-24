@@ -15,8 +15,8 @@
   <section class="conteudoTopo">
     <h2 class="nomeTopo">Calendário Disciplinas On-line</h2>
     <div class="alterarCalendario">
-      <a class="botaoSelecionado" id="botaoLista"><span class="material-icons" id="botaoAlterarCalendario">view_headline</span></a>
-      <a class="botaoSelecionar" id="botaoTabela"><span class="material-icons" id="botaoAlterarCalendario">view_column</span></a>
+      <a class="botaoSelecionado" id="botaoLista" onclick="mostrarCalendarioLista()"><span class="material-icons" id="botaoAlterarCalendario">view_headline</span></a>
+      <a class="botaoSelecionar" id="botaoTabela" onclick="mostrarCalendarioTabela()"><span class="material-icons" id="botaoAlterarCalendario">view_column</span></a>
     </div>
   </section>
   <section class="conteudoMenu">
@@ -24,7 +24,7 @@
       <img class="imgBotao" id="imgBotaoSimulador" src="img/Icon ionic-md-calculator.png">
       <span class="nomeBotao">Simulador</span>
     </a>
-    <a class="linkMenu" id="linkMenuCalendario" href="index.html">
+    <a class="linkMenu" id="linkMenuCalendario" onclick="alterarCalendario()">
       <img class="imgBotao" id="imgBotaoCalendario" src="img/Icon awesome-calendar-alt.png">
       <span class="nomeBotao">Calendário</span>
     </a>

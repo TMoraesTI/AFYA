@@ -1,21 +1,17 @@
-$('#botaoLista').click(function(){
-    window.scrollTo(0, 0);
-    $('.botaoSelecionar').toggleClass('botaoSelecionado');
-    $('.botaoSelecionado').removeClass('botaoSelecionar');
-    $('#botaoTabela').toggleClass('botaoSelecionar')
-    $('#botaoTabela').removeClass('botaoSelecionado');
-    $('#calendarioLista').toggleClass('calendarioLista');
-    $('#calendarioTabela').toggleClass('calendarioTabela');
-});
+var botaoLista = document.getElementById('botaoLista');
+var botaoTabela = document.getElementById('botaoTabela');
+var calendarioLista = document.getElementById('calendarioLista');
+var calendarioTabela = document.getElementById('calendarioTabela');
 
-$('#botaoTabela').click(function(){
-    window.scrollTo(0, 0);
-    $('.botaoSelecionar').toggleClass('botaoSelecionado');
-    $('.botaoSelecionado').removeClass('botaoSelecionar');
-    $('#botaoLista').toggleClass('botaoSelecionar');
-    $('#botaoLista').removeClass('botaoSelecionado');
-    $('#calendarioLista').toggleClass('calendarioListaOcultar');
-    $('#calendarioTabela').toggleClass('calendarioTabelaMostrar');
-});
-
-
+function mostrarCalendarioTabela(){
+    botaoLista.className = "botaoSelecionar";
+    botaoTabela.className = "botaoSelecionado";
+    calendarioLista.className = "calendarioListaOcultar";
+    calendarioTabela.className = "calendarioTabelaMostrar";
+}
+function mostrarCalendarioLista(){
+    botaoLista.className = "botaoSelecionado";
+    botaoTabela.className = "botaoSelecionar";
+    calendarioLista.className = "calendarioLista";
+    calendarioTabela.className = "calendarioTabela";
+}
