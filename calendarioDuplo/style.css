@@ -230,17 +230,37 @@ a{
 .calendarioTabelaMostrar{
   color: #ffffff;
   display: grid;
+  width: 100%;
 }
 hr{
   border-color: #ffffff;
   margin-bottom: 15px;
   margin-top: 3px;
 }
-
+#divisaoTabela2{
+  margin-top: 50px;
+  display: flex;
+}
+#tabela2{
+  margin-right: 20%;
+}
+.linhaAtividades .nomeColuna{
+  width: 130px;
+  background-color: #D31C5B;
+}
+.linhaAtividades .nomeData{
+  width: 70px;
+  background-color: #595D5C;
+}
 
 /* ----- Responsive CSS ----- */
 
 @media only screen and (max-width: 1407px){
+  .calendarioTabelaMostrar{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
   #divisaoTabela1{
     width: 100%;
   }
@@ -251,7 +271,21 @@ hr{
     margin: auto;
   }
 }
-@media only screen and (max-width: 740px){
+@media only screen and (max-width: 1061px){
+  #tabela2{
+    margin-right: 10%;
+  }
+}
+@media only screen and (max-width: 620px){
+  #divisaoTabela2{
+    display: grid;
+    width: auto;
+  }
+  #tabela2{
+    margin-right: 0;
+  }
+}
+  @media only screen and (max-width: 740px){
   .calendarioLista{
     grid-template-columns: 100%;
     width: 100%;
