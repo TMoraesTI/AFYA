@@ -28,7 +28,7 @@ ul{
   background-size: cover;
   background-position: center;
   display: grid;
-  grid-template-columns: auto 100px;
+  grid-template-columns: auto 75px;
 }
 .nomeTopo{
   font-size: 32px;
@@ -38,16 +38,16 @@ ul{
   color: #ffffff;
 }
 .alterarCalendario{
-  position: fixed;
   right: 0;
   background-color: #ffffff;
   border: #D31C5B 1px solid;
   display: flex;
   border-radius: 50px;
+  margin: auto;
 }
 #botaoAlterarCalendario{
   color: #D31C5B;
-  font-size: 35px;
+  font-size: 25px;
   padding: 5px;
 }
 .botaoSelecionado{
@@ -235,13 +235,13 @@ a{
   }
   #tabela1{
     display: block;
-    overflow-y: scroll;
+    overflow: auto;
     width: 98%;
     margin: auto;
   }
 }
 @media only screen and (max-width: 740px){
-  .calendario{
+  .calendarioLista{
     grid-template-columns: 100%;
     width: 100%;
     padding: 3px; 
